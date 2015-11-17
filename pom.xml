@@ -352,7 +352,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
     <modules>
-        <module>wes-carbon-parent</module>
-        <module>wes-product-parent</module>
+        <module>wes-ta-parent</module>
+        <module>wes-parent</module>
     </modules>
 </project>

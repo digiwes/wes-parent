@@ -13,7 +13,7 @@
     <version>0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <description>DIGIWES Carbon Kernel Parent Pom</description>
+    <description>DIGIWES Technical Architecture Parent Pom</description>
 
     <properties>
         <carbon.kernel.version>4.4.1</carbon.kernel.version>
