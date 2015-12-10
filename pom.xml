@@ -18,11 +18,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.digiwes</groupId>
-    <artifactId>wes-parent</artifactId>
+    <artifactId>wes-base-parent</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <name>wes-parent</name>
+    <name>wes-base-parent</name>
     <description>
         Digiwes is an application development software company focused on providing service-oriented
         architecture solutions for professional developers.
@@ -275,7 +275,7 @@
                     <!-- Create a source-release artifact that contains the fully buildable
                          project directory source structure. This is the artifact which is
                          the official subject of any release vote. -->
-                    <plugin>
+                    <!--<plugin>
                         <artifactId>maven-assembly-plugin</artifactId>
                         <executions>
                             <execution>
@@ -293,7 +293,7 @@
                                 </configuration>
                             </execution>
                         </executions>
-                    </plugin>
+                    </plugin>-->
                     <!-- We want to deploy the artifact to a staging location for perusal -->
                     <plugin>
                         <inherited>true</inherited>
@@ -328,7 +328,7 @@
                         </executions>
                     </plugin>
                     <!-- We want to sign the artifact, the POM, and all attached artifacts -->
-                    <plugin>
+                    <!--<plugin>
                         <groupId>org.apache.maven.plugins</groupId>
                         <artifactId>maven-gpg-plugin</artifactId>
                         <executions>
@@ -338,7 +338,7 @@
                                 </goals>
                             </execution>
                         </executions>
-                    </plugin>
+                    </plugin>-->
                 </plugins>
             </build>
         </profile>
@@ -347,7 +347,7 @@
     <properties>
         <digiwes.maven.compiler.source>1.7</digiwes.maven.compiler.source>
         <digiwes.maven.compiler.target>1.7</digiwes.maven.compiler.target>
-        <sourceReleaseAssemblyDescriptor>source-release</sourceReleaseAssemblyDescriptor>
+        <!--<sourceReleaseAssemblyDescriptor>source-release</sourceReleaseAssemblyDescriptor>-->
         <project.scm.id>my-scm-server</project.scm.id>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
