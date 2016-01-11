@@ -35,7 +35,6 @@
     <prerequisites>
         <maven>3.0.0</maven>
     </prerequisites>
-
     <developers>
         <developer>
             <name>Digiwes Developer</name>
@@ -76,9 +75,17 @@
     </pluginRepositories>
 
     <distributionManagement>
-
+        <repository>
+            <id>digiwes-release</id>
+            <name>Digiwes Releases</name>
+            <url>http://10.1.203.161:8081/content/repositories/digiwes-release</url>
+        </repository>
+        <snapshotRepository>
+            <id>digiwes-snapshot</id>
+            <name>Digiwes Snapshots</name>
+            <url>http://10.1.203.161:8081/content/repositories/digiwes-snapshot</url>
+        </snapshotRepository>
     </distributionManagement>
-
 
     <scm>
         <connection>scm:git:https://github.com/digiwes/wes-parent.git</connection>
@@ -355,4 +362,5 @@
         <module>wes-ta-parent</module>
         <module>wes-parent</module>
     </modules>
+
 </project>
