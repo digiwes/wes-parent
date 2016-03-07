@@ -76,14 +76,14 @@
 
     <distributionManagement>
         <repository>
-            <id>digiwes-release</id>
+            <id>digiwes-releases</id>
             <name>Digiwes Releases</name>
-            <url>http://10.1.203.161:8081/content/repositories/digiwes-release</url>
+            <url>http://10.1.43.19:8081/content/repositories/digiwes-releases</url>
         </repository>
         <snapshotRepository>
-            <id>digiwes-snapshot</id>
+            <id>digiwes-snapshots</id>
             <name>Digiwes Snapshots</name>
-            <url>http://10.1.203.161:8081/content/repositories/digiwes-snapshot</url>
+            <url>http://10.1.43.19:8081/content/repositories/digiwes-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
