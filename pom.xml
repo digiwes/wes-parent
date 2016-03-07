@@ -78,12 +78,12 @@
         <repository>
             <id>digiwes-releases</id>
             <name>Digiwes Releases</name>
-            <url>http://10.1.43.19:8081/content/repositories/digiwes-releases</url>
+            <url>http://com.digiwes.cn:8081/content/repositories/digiwes-releases</url>
         </repository>
         <snapshotRepository>
             <id>digiwes-snapshots</id>
             <name>Digiwes Snapshots</name>
-            <url>http://10.1.43.19:8081/content/repositories/digiwes-snapshots</url>
+            <url>http://com.digiwes.cn:8081/content/repositories/digiwes-snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 
